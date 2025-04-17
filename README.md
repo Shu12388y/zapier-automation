@@ -10,7 +10,7 @@ This project is a **Turborepo monorepo** setup for a full-stack TypeScript appli
 
 - **apps/**
   - **server/**: Backend Express server (TypeScript, Node.js, MongoDB, Redis, BullMQ for queues, etc.)
-  - **web/**: Frontend Next.js app (React, Next.js, TailwindCSS, NextAuth, Recharts, etc.)
+  - **web/**: Frontend Next.js app (React, Next.js, TailwindCSS, NextAuth, etc.)
 
 - **packages/**
   - **eslint-config/**: Shared ESLint configuration for monorepo (supports Next.js, React, Prettier).
@@ -28,7 +28,7 @@ This project is a **Turborepo monorepo** setup for a full-stack TypeScript appli
 ## Key Technologies
 
 - **Monorepo Management**: Turborepo, pnpm
-- **Frontend**: Next.js, React, TailwindCSS, NextAuth, Recharts
+- **Frontend**: Next.js, React, TailwindCSS, NextAuth
 - **Backend**: Express, Mongoose (MongoDB), BullMQ (Redis), Node-cron, Axios
 - **TypeScript**: Used throughout all apps and packages
 - **Linting/Formatting**: ESLint, Prettier, custom config packages
